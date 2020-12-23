@@ -37,5 +37,9 @@ Projede Erciyes Üniversitesi Bilgisayar Mühendisliği Web sitesi tek sayfa ola
 2. W3schools
 3. Bootstrap
 4. Stackoverflow
+# Test
+1. https://drive.google.com/file/d/12ENgw5MOJ_pVfmgW-CMU7n2XJPfQVUBR/view?usp=sharing adresinde projenin kısa test videosu mevcuttur nedeni ise responsive tam anlamıyla olmadığı için farklı bilgisayarlarda etiketler farklı gözükebilir.
 # İletişim
 1. cancumayamann@gmail.com
+
+
