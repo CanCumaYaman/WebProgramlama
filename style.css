@@ -1,0 +1,337 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    
+    box-sizing: border-box;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none !important;
+
+}
+/*
+css codes related nav tag start
+*/
+nav{
+    height: 33px;
+    width: 100%;
+    background-color: #001B68;
+}
+nav ul li{
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top:5px;
+    font-size: 15px;
+}
+nav ul{
+    margin-left: 60px;
+}
+/*
+css codes related nav tag finish
+*/
+
+/*
+css codes related section tag id undernav is start
+*/
+section{
+    width: 100%;
+    background-color: white;
+}
+/*
+.nav-alig ul li a{
+    font-family: 'Noto Serif', serif;
+    font-weight: 550;
+}
+*/
+.nav-alig ul ul {
+    display: none;
+   }
+   .nav-alig ul ul:first-child:hover {
+    background-color: white !important;
+   }
+ .nav-alig .one .links{
+    
+  transition: background-color 0.6s;
+   }
+ .nav-alig .one .links:hover{
+       color: white !important;
+       border-radius: 18px !important;
+       background-color:#2C2D30 !important ;
+   }
+   
+ .nav-alig ul li:hover > ul {
+    display: block;
+    
+    }
+    .empty:hover{
+      background-color: white !important;
+    }
+    .nav-alig ul {
+    background-color: white;
+    border: none;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+   }
+   .nav-alig ul ul {
+   
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+   }
+   .nav-alig ul:after {
+    content: ""; clear: both; display: block;
+    }
+    
+    .nav-alig ul .one {
+    float: left;
+    
+   }
+    .nav-alig ul .one  a {
+    display: block; 
+    padding: 10px 17px;
+    color:#2C2D30 ;
+    text-decoration: none;
+    padding-left: 13px;
+    
+    }
+    .nav-alig ul .one  a:hover {
+        color: white;
+        
+        }
+
+    .nav-alig ul ul {
+    background: white; border-radius: 0px; padding: 0;
+    position: absolute; top: 100%;
+   }
+   .nav-alig ul ul li {
+    float: none;
+    
+    position: relative;
+    }
+    .nav-alig ul ul li a {
+    padding: 10px 40px;
+    
+    color:  #2C2D30;
+    background-color: white;
+    }
+    .nav-alig ul ul li a:hover {
+    background:#2C2D30;
+    color: white;
+    
+    }
+    .nav-alig ul ul ul {
+        position: absolute; left: 100%; top:0;
+        }
+        .nav-alig ul .son {
+             left: -200px; top:0;
+            right: 158px;
+            }
+/*
+css codes related section tag id undernav is finish
+*/
+
+
+   /*Dropdown items width start*/
+   .personel{
+       width: 150px;
+
+   }
+   .lisans{
+    width: 230px;
+   }
+   .katalog{
+    width: 200px;
+   }
+   .anadal{
+    width: 170px;
+
+}
+.ylisans{
+    width: 120px;
+}
+.doktora{
+    width: 130px;
+}
+.staj{
+    width: 250px;
+}
+/*Dropdown items width finish*/
+  
+/*Carousel slider heights start*/   
+.slider-heights{
+    height: 480px;
+    object-fit:cover;
+}
+/*Carousel slider heights finish*/  
+
+
+ /*Carousel custom indicators codes start */
+ ol{
+    display: none;
+    
+}
+ol li button{
+   
+    border:3px solid #7A6B54;
+   
+}
+.carous-move button{
+    outline: none;
+}
+.carousel-indicator-list li button{
+    outline: none;
+}
+ol li::marker{
+    font-size: 0;
+}
+ol li button:hover{
+  
+    border:3px solid #E2E2E2;
+}
+
+.effect{
+    transition: background-image 3s;
+   }
+   .effect1:hover{
+    background-image: url(images/class.jpg);background-size: contain;
+   }
+   .effect2:hover{
+    background-image: url(images/lab.jpg);background-size: contain;
+   }
+   
+ /*Carousel custom indicators codes finish */
+
+
+ /*announce part of the site codes start*/
+  .duyurular tr{border-spacing:10px 10px; cursor:pointer;}
+  .duyurular tr td{
+      padding:2px 20px;
+    color: #65666D;
+    font-weight: 600;
+}
+.duyurular tr td:last-child{
+    padding:2px 8px;
+  
+}
+  .duyurular tr td:first-child{width:80px; border-right:1px solid gray ; padding-right:5px;}
+  .duyurular tr:hover td:first-child{color:#5C0202; border-right:3px solid #5C0202 ; padding-right:5px; font-weight:500;}
+  .duyurular a{
+    font-weight: 700; color: #4F5055;
+  }
+  
+  .duyurular a:hover{
+      color: #898989;
+  }
+  .col-md-3 .fa{
+      color: #777777;
+  }
+  .announce a{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid white;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 107px;
+    padding-bottom: 10px;
+    
+  }
+  .announce a:hover{
+      background-color: #D3D3D3;
+  }
+  .announce li{
+      margin-top: 20px;
+      
+      
+  }
+  .announce li{
+   width: 600px;
+
+}
+
+  
+  .tab-content{padding:15px;border:1px solid #eeeeee;}
+  .eru{
+      margin-bottom: 60px;
+  }
+  /*announce part of the site codes finish*/
+
+
+  /*info about the eru ceng codes start*/
+  .eru a{
+    padding: 30px;border-radius: 50%; background-color: white;
+    
+  }
+  .eru h3{
+    color: white;
+  }
+  .eru h5{
+    color: white;
+  }
+  .eru p{
+      text-align: left;
+    color: white;
+    font-size: 15px;
+  }
+  .icon-menu{
+    margin-left: 28%;margin-top: -50px;
+  }
+  .icon{
+      margin-left: 11%;
+  }
+/*info about the eru ceng codes finish*/
+
+
+  /*owl-carousel css start*/
+.owlitems{
+    margin-top: 20px;
+   margin-right: 10px;
+}
+
+.owlitems img{
+    border-radius: 10px;
+    border: 3px solid #A1A1A1;
+object-fit:contain;
+}
+ /*owl-carousel css finish*/
+ /*footer codes start*/
+.footer-links {
+    font-size: 15px;
+    color: #808080;
+    transition: color 0.8s;
+}
+
+    .footer-links:hover {
+        color: #506666;
+    }
+    .border-footer{
+        border-top: 1.5px dashed #494949;
+        margin-left: 17px;
+        margin-top: -4px;
+    }
+    .list-unstyled li{
+        margin-top: -16px;
+    }
+    .readmore{
+        color: #626666; font-size: 15px;padding-bottom: 10px;
+        margin-left: 10px;
+        
+    }
+    .readmore:hover{
+        color:#506666;
+        cursor: pointer;
+    }
+    .btn-theme-colored:focus{
+        border:#506666 ;
+    }
+    /*footer codes finish*/ 
+
+   
+ 
+
+   
